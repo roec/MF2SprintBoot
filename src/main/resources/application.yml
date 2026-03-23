@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+deepseek:
+  base-url: https://api.deepseek.com/v1
+  api-key: ${DEEPSEEK_API_KEY:}
+  model: deepseek-chat
